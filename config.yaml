@@ -1,5 +1,6 @@
 RTL_FILE:
   - rtl/build/generated-src/DifftestClockGate.sv
+  - rtl/build/generated-src/DifftestMacros.svh
   - rtl/build/rtl/AMOALU.sv
   - rtl/build/rtl/AXI4Buffer.sv
   - rtl/build/rtl/AXI4Buffer_3.sv

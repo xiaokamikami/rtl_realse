@@ -12,11 +12,12 @@ def find_sv_v_files(directory='.'):
     """
     Find all .sv and .v files in the specified directory
     """
+    svh_files = glob.glob(os.path.join(directory, '**', '*.svh'), recursive=True)
     sv_files = glob.glob(os.path.join(directory, '**', '*.sv'), recursive=True)
     v_files = glob.glob(os.path.join(directory, '**', '*.v'), recursive=True)
     
     # Filter out files in the current directory to keep only relative paths
-    all_files = sv_files + v_files
+    all_files = sv_files + v_files + svh_files
     # Convert to relative paths from the directory
     relative_paths = [os.path.relpath(f, directory) for f in all_files]
     
