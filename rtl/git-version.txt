@@ -1,0 +1,32 @@
+Project Path: /nfs/home/youkunlin/workspace/xs-env/XiangShan
+Generated at: Sun Jan 11 04:11:58 CST 2026
+===============================
+          XiangShan
+===============================
+Branch      : master
+Latest logs :
+    9cf878419 | 2026-01-09 | Tang Haojin | fix(StandAlonePLIC): add missing `extIntrs` ports (#5479)
+    b381818d9 | 2026-01-07 | Kunlin You | feat(difftest): speicified probe name, extra macros for finish (#5484)
+    315d4d309 | 2026-01-05 | Kunlin You | feat(difftest): specifiy top prefix and dpic instance (#5463)
+    fa34af08d | 2026-01-04 | lwd | fix(StoreUnit): fix stuck of misalign Store (#5460)
+    eec246483 | 2025-12-30 | zhaohong1988 | fix(SoC): turn on safe to solve reset on pending tranaction
+    9adb5697d | 2025-12-26 | zhaohong1988 | fix(XSTileWrap): fix async bridge reset about chi and clint
+    c13cee66b | 2025-12-27 | Haojin Tang | fix(DCacheParams): calculate `cacheCtrlParamsOpt` in demand
+    76bd06653 | 2025-12-25 | Kumonda221 | fix(L2Top): exclude BEU range also when seperate bus disabled
+    b231f2d71 | 2025-12-25 | Kumonda221 | fix(L2Top): exclude BEU addresses from MMIOBridge range
+    d4ba705ee | 2025-12-26 | zhanglinjuan | submodule(CoupledL2): bump CoupledL2
+===============================
+          DiffTest
+===============================
+Branch      : pipeline
+Latest logs :
+    bb04fa0d | 2026-01-11 | klin02 | Merge branch 'pipeline' of https://github.com/OpenXiangShan/difftest into pipeline
+    9b3f1f21 | 2026-01-11 | klin02 | feat(difftest): refactor transfer logic with ready-valid pipeline
+    270e04fa | 2026-01-06 | klin02 | feat(difftest): decouple clockgate from fpga_sim
+    08d8e343 | 2026-01-11 | klin02 | feat(scripts): support convert query.db to hex
+    69fc7f30 | 2026-01-06 | Kamimiao | fix(difftest): fix xx-check memory overflow (#796)
+    da8d3445 | 2026-01-06 | Kunlin You | feat(difftest): specify source name for XMR probe (#794)
+    131b25cb | 2026-01-06 | Kunlin You | feat(difftest): add NO_FINISH_AFTER_WORKLOAD for vcs (#795)
+    7ad3b268 | 2026-01-05 | Kunlin You | fix(Delta): validate DeltaInfo only when deltas valid (#784)
+    eb80bc58 | 2026-01-05 | Kamimiao | feat(fpga_diff): support async_clock for Diff2AXI (#787)
+    9b058bd0 | 2025-12-31 | Kunlin You | fix(difftest): invalidate commit when exception/interrupt (#793)

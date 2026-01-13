@@ -1,0 +1,49 @@
+//commit 9cf878419d442efd23c293963b82786d0fc45adc
+//Author: Tang Haojin <tanghaojin@outlook.com>
+//Date:   Fri Jan 9 10:38:42 2026 +0800
+//
+//    fix(StandAlonePLIC): add missing `extIntrs` ports (#5479)
+//diff --git a/Makefile b/Makefile
+//index c88380c9c..0a236182c 100644
+//--- a/Makefile
+//+++ b/Makefile
+//@@ -196,7 +196,7 @@ endif
+// # emu for the release version
+// RELEASE_ARGS += --fpga-platform --disable-all --remove-assert --reset-gen --firtool-opt --ignore-read-enable-mem
+// ifeq ($(FPGA), 1)
+//-override DEBUG_ARGS	+= --fpga-platform --disable-all --remove-assert --disable-clockgate
+//+override DEBUG_ARGS	+= --fpga-platform --disable-all --remove-assert # --disable-clockgate
+// else
+// override DEBUG_ARGS	+= --enable-difftest
+// endif
+//diff --git a/coupledL2 b/coupledL2
+//--- a/coupledL2
+//+++ b/coupledL2
+//@@ -1 +1 @@
+//-Subproject commit ea0c313041219d4f0017628dba15c45343c0ea38
+//+Subproject commit ea0c313041219d4f0017628dba15c45343c0ea38-dirty
+//diff --git a/difftest b/difftest
+//index da8d34450..bb04fa0d5 160000
+//--- a/difftest
+//+++ b/difftest
+//@@ -1 +1 @@
+//-Subproject commit da8d34450242bd1451cf187664b9259c73bb6183
+//+Subproject commit bb04fa0d592c9f704286667bb9e2553401948c66
+//diff --git a/huancun b/huancun
+//--- a/huancun
+//+++ b/huancun
+//@@ -1 +1 @@
+//-Subproject commit 65ef077373ecf398b4cecdea06b65ef9b8d79044
+//+Subproject commit 65ef077373ecf398b4cecdea06b65ef9b8d79044-dirty
+//diff --git a/openLLC b/openLLC
+//--- a/openLLC
+//+++ b/openLLC
+//@@ -1 +1 @@
+//-Subproject commit 9e6f78209b2f215fb9f6a8f0de250995ff3ab63d
+//+Subproject commit 9e6f78209b2f215fb9f6a8f0de250995ff3ab63d-dirty
+//diff --git a/utility b/utility
+//--- a/utility
+//+++ b/utility
+//@@ -1 +1 @@
+//-Subproject commit fcb82239ad34510a22de26452a872ad7779fdcb4
+//+Subproject commit fcb82239ad34510a22de26452a872ad7779fdcb4-dirty

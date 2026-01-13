@@ -1,0 +1,23 @@
+	Command being timed: "mill -i -Djvm-xmx=40G -Djvm-xss=256m xiangshan.runMain top.TopMain --target-dir build/rtl --config FpgaDiffDefaultConfig --issue E.b --firtool-opt --repl-seq-mem --repl-seq-mem-file=XSTop.sv.conf --num-cores 1 --difftest-config ESBIFDU --difftest-exclude Vec --target systemverilog --firtool-opt -O=release --disable-annotation-unknown --lowering-options=explicitBitcast,disallowLocalVariables,disallowPortDeclSharing,locationInfoStyle=none --split-verilog --dump-fir --fpga-platform --disable-all --remove-assert"
+	User time (seconds): 1276.38
+	System time (seconds): 64.89
+	Percent of CPU this job got: 305%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:19.68
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 18040244
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 81
+	Minor (reclaiming a frame) page faults: 9355803
+	Voluntary context switches: 4807096
+	Involuntary context switches: 440535
+	Swaps: 0
+	File system inputs: 3147680
+	File system outputs: 2999512
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
